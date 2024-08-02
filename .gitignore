@@ -13,7 +13,3 @@
 .externalNativeBuild
 .cxx
 local.properties
-
-# Exclude SSH key files
-mike-ds-git
-mike-ds-git.pub
