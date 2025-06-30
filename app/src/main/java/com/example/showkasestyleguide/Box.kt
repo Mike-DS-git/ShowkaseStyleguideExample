@@ -1,5 +1,6 @@
 package com.example.showkasestyleguide
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -68,6 +69,6 @@ class BoxActivity : ComponentActivity() {
 	}
 
 	companion object {
-		fun getIntent(activity: ComponentActivity) = Intent(activity, BoxActivity::class.java)
+		fun getIntent(activity: Context) = Intent(activity, BoxActivity::class.java)
 	}
 }
