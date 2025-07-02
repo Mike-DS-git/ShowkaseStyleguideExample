@@ -6,12 +6,12 @@ plugins {
 
 android {
 	namespace = "com.example.showkasestyleguide"
-	compileSdk = 34
+	compileSdk = 36
 
 	defaultConfig {
 		applicationId = "com.example.showkasestyleguide"
 		minSdk = 29
-		targetSdk = 34
+		targetSdk = 36
 		versionCode = 1
 		versionName = "1.0"
 
@@ -75,4 +75,7 @@ dependencies {
 	// view pager
 	implementation(libs.accompanist.pager)
 	implementation(libs.accompanist.pager.indicators)
+
+	// navigation
+	implementation(libs.navigation.compose)
 }
